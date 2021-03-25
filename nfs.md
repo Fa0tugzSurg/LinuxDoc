@@ -36,3 +36,7 @@ $showmount -e
 ```
 $sudo mount -t nfs -o nolock 192.168.0.106:/home/huangfu/nfs /mnt/   //ip地址为nfs服务器的ip，路径为服务器端设置的路径
 ```
+
+## 常见错误
+
+
