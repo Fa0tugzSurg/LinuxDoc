@@ -1,5 +1,5 @@
 // The title of this document
-//title = "Gaiden"
+title = "Linux 学习和工作笔记"
 
 // The version of this document
 //version = ""

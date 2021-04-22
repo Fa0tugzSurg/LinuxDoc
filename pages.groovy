@@ -1,2 +1,3 @@
-"README.md"
 nfs.md
+yocto.md
+wifi.md

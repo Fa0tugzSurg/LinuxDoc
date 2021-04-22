@@ -39,4 +39,16 @@ $sudo mount -t nfs -o nolock 192.168.0.106:/home/huangfu/nfs /mnt/   //ip地址�
 
 ## 常见错误
 
+1. 版本兼容问题
+
+```
+ NFS: bad mount option value specified: vers=4.2 mount.nfs: an incorrect mount option was specified
+```
+
+方法：加上"-o vers=3"选项
+
+```
+mount -t nfs  -o nolock 192.168.1.121:/home/edu/nfs /mnt -o vers=3  
+```
+
 
